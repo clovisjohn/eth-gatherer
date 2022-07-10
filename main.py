@@ -23,12 +23,12 @@ def sendEth (pkey,to) :
     nonce = web3.eth.getTransactionCount(origin)
     
     balance = web3.eth.getBalance(origin)
-    if balance > 2*21000*web3.eth.gas_price :
+    if balance > 1.3*21000*web3.eth.gas_price :
         #build a transaction in a dictionary
         tx = {
         'nonce': nonce,
         'to': to,
-        'value': (balance - 2*21000*web3.eth.gas_price),
+        'value': (balance - 1.3*21000*web3.eth.gas_price),
         'gas': 21000,
         'gasPrice': web3.eth.gas_price
         }
