@@ -22,7 +22,7 @@ You can run this script by using `main.py pkeys_file recipient rpc`
 
 - recipient: the ethereum address where you want to gather eth
 
-- rpc: the url of the rpc you wanna use. Ex: https://mainnet.infura.io/v3/<infura-id>
+- rpc: the url of the rpc you wanna use. `Ex: https://mainnet.infura.io/v3/<infura-id> 
   
                
 ### Example
