@@ -3,7 +3,7 @@ A script to bulk send eth from multiple wallets to one
 
 ## Requirement
 * Python 3+
-* web3 python library
+* web3.py
 * rpc url
 
 
@@ -17,10 +17,10 @@ git clone https://github.com/clovisjohn/eth-gatherer.git
 You can run this script by using `main.py pkeys_file recipient rpc`
 
 ### Arguments
-- pkeys_file: the file containing the pkeys of the wallets you want to send from, one wallet per line. Example file provided in the repo
+- pkeys_file: the file containing the private keys of the wallets you want to send from, one private key per line. Example file provided in the repo
 
 
-- recipient: the ethereum to send where you want to gather eth
+- recipient: the ethereum address where you want to gather eth
 
 - rpc: the url of the rpc you wanna use. Ex: https://mainnet.infura.io/v3/<infura-id>
   
