@@ -15,7 +15,7 @@ to_addy = sys.argv[2]
 
 print(type(to_addy))
 #######################################################################################################
-rpc = 'https://mainnet.infura.io/v3/81e29f26b36d418fb1c01cc9f4ca0e95'
+rpc = sys.argv[3]
 web3 = Web3(Web3.HTTPProvider(rpc))
 
 
