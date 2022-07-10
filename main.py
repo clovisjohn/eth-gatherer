@@ -28,7 +28,7 @@ def sendEth (pkey,to) :
         tx = {
         'nonce': nonce,
         'to': to,
-        'value': (balance - 1.3*21000*web3.eth.gas_price),
+        'value': (balance - round(1.3*21000*web3.eth.gas_price)),
         'gas': 21000,
         'gasPrice': web3.eth.gas_price
         }
