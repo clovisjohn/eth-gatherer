@@ -1,5 +1,5 @@
 # eth-gatherer
-A script to bulk send eth from multiples wallets to one
+A script to bulk send eth from multiple wallets to one
 
 ## Requirement
 * Python 3+
