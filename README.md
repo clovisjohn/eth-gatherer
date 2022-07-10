@@ -24,7 +24,7 @@ You can run this script by using `main.py pkeys_file recipient rpc`
 
 - rpc: the url of the rpc you wanna use.
   
-Current market gas price will be used for transactions
+**Current market gas price will be used for transactions**
 
 ### Example
 The execution of the next line will transfer to 0xB32E1E554901127d9734C58193fB44777482F258 all eth from the wallets whose private keys are in pkeys.txt
