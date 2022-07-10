@@ -7,7 +7,7 @@ Created on Sat Jul  9 19:54:15 2022
 import sys
 from web3 import Web3
 
-if len(sys.argv) < 2:
+if len(sys.argv) < 4:
     raise ValueError('Please provide arguments')
     
 pkey_list = sys.argv[1]
