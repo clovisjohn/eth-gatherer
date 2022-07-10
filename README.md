@@ -12,7 +12,6 @@ A script to bulk send eth from multiple wallets to one
 git clone https://github.com/clovisjohn/eth-gatherer.git
 ```
 
-Add your infura project id in variables.py
 
 ## Usage
 You can run this script by using `main.py pkeys_file recipient rpc`
