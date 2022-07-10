@@ -26,9 +26,9 @@ You can run this script by using `main.py pkeys_file recipient rpc`
   
                
 ### Example
-
+The execution of the next line will transfer to 0xB32E1E554901127d9734C58193fB44777482F258 all eth from the wallets whose private keys are in pkeys.txt
 ```
-main.py pkeys.txt 0xA5d31a3Ed981eC2fC2b10987Be0dD04Dfc6b8c38 https://mainnet.infura.io/v3/<infura-id>
+main.py pkeys.txt 0xB32E1E554901127d9734C58193fB44777482F258 https://mainnet.infura.io/v3/<infura-id>
 ```
 
 ## Colab workflow
