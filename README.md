@@ -35,4 +35,4 @@ main.py pkeys.txt 0xA5d31a3Ed981eC2fC2b10987Be0dD04Dfc6b8c38 https://mainnet.inf
 ```
 !git clone https://github.com/clovisjohn/eth-gatherer.git
 !pip install web3
-!python /content/crypto-gatherer/main.py pkeys_file recipient rpc
+!python /content/eth-gatherer/main.py pkeys_file recipient rpc
