@@ -1,7 +1,7 @@
 # eth-gatherer
 A script to bulk send eth from multiple wallets to one
 
-## Requirement
+## Requirements
 * Python 3+
 * web3.py
 * rpc url
