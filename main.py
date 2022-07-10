@@ -13,7 +13,6 @@ if len(sys.argv) < 4:
 pkey_list = sys.argv[1]
 to_addy = sys.argv[2]
 
-print(type(to_addy))
 #######################################################################################################
 rpc = sys.argv[3]
 web3 = Web3(Web3.HTTPProvider(rpc))
